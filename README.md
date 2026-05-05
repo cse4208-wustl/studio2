@@ -29,6 +29,8 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
 2. SSH into `shell.cec.wustl.edu` using your WUSTL Key credentials, then use `qlogin` to log into one of the Linux Lab machines and confirm that the version of `g++` there is correct, as you did in [Studio 0](https://github.com/cse4208-wustl/studio0).
 
+   Clone your `studio2` repo and work inside that cloned directory.
+
    Create a header file and a source file in this repo, with the source file including the header file.
 
    In those files, declare an enumerated type, `enum class Weekday`, for the days-of-the-week example discussed in the lecture, and then declare and define a shift operator, `operator<<`, that:
