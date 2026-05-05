@@ -6,11 +6,7 @@ In this studio, you will explore how to represent program state using a simple `
 
 Some of the ideas and possibly some of the code from this studio may help you get started on [Lab 0](https://github.com/cse4208-wustl/lab0).
 
-## Recording Answers
-
-Record your exercise answers in `ANSWERS.md`. Include the names of everyone who worked on the studio in your first answer, and number your responses so they are easy to match to the exercises.
-
-## Working Style
+## Collaboration
 
 You may complete this studio individually or in a small group.
 
@@ -26,6 +22,8 @@ If you need a refresher on the environment setup steps from the previous studio,
 The pressure and weekday examples discussed in lecture are also referenced in `State_and_Operations.pptx`.
 
 ## Exercises
+
+Record your answers in `ANSWERS.md` as you work. Include the names of everyone who worked on the studio in your first answer, and number your responses so they are easy to match to the exercises.
 
 1. List the names of the people who worked together on this studio.
 
