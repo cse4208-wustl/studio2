@@ -10,11 +10,6 @@ Some of the ideas and possibly some of the code from this studio may help you ge
 
 You may complete this studio individually or in a small group.
 
-## Files
-
-- `Makefile`
-- `State_and_Operations.pptx`
-
 ## Reference
 
 If you need a refresher on the environment setup steps from the previous studio, see [Studio 0](https://github.com/cse4208-wustl/studio0).
