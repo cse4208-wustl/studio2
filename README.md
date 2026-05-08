@@ -49,7 +49,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the new code you added for the `main` function
+   - the code you added to the `main` function
    - the output your program produced
    - a note on how you ensured that your operator++ is postfix.
 
@@ -59,7 +59,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the code you added for the `main` function
+   - the code you added to the `main` function
    - the output your program produced
 
 5. Create a header file (`pressure.h`) and a source file (`pressure.cpp`) in your repo, with the source file including the header file. 
@@ -84,7 +84,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the new code you wrote for this exercise
+   - the code you added to the `main` function
    - the output your program produced
 
 7. Declare and define a **prefix** decrement operator, `operator--`, for the `Pressure` enumerated type that uses a `switch` statement to change the variable's state to the next-lower value in the enumeration if there is one. If the variable already has the lowest value possible, theoperator should leave the value unchanged. If the state transition is not allowed (if the pressure is pop), the operator should leave the value unchanged.
@@ -93,11 +93,11 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the new code you wrote for this exercise
+   - the code you added to the `main` function
    - the output your program produced
 
 8. Add code to the `main` function that tests your implementation of `operator--` when the variable is in the pop state. You your answers, show:
-   - the new code you wrote for this exercise
+   - the code you added to the `main` function
    - the output your program produced
      
 ## Deliverables
