@@ -40,9 +40,8 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the new code you added for the `main` function
+   - the code you wrote for the `main` function
    - the output your program produced
-   - a note on how you ensured that your operator++ is postfix.
 
 3. Declare and define a **postfix** increment operator, `operator++`, for the `Weekday` enumerated type that uses a `switch` statement to change the variable's state to the next-higher value in the enumeration if there is one. If the variable already has the highest value, the operator should change it to the lowest value, looping around from highest to lowest.
 
@@ -50,8 +49,9 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the new code you wrote for this exercise
+   - the new code you added for the `main` function
    - the output your program produced
+   - a note on how you ensured that your operator++ is postfix.
 
 4. Declare and define a **postfix** decrement operator, `operator--`, for the `Weekday` enumerated type that uses a `switch` statement to change the variable's state to the next-lower value in the enumeration if there is one. If the variable already has the lowest value, it should change to the highest value, looping around from lowest to highest.
 
