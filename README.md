@@ -14,7 +14,7 @@ You may complete this studio individually or in a small group.
 
 If you need a refresher on the environment setup steps from the previous studio, see [Studio 0](https://github.com/cse4208-wustl/studio0).
 
-The pressure and weekday examples discussed in lecture are also referenced in `State_and_Operations.pptx`.
+The pressure and weekday examples in this studio were discussed in lecture.
 
 ## Exercises
 
