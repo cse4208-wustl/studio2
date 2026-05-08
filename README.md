@@ -24,7 +24,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
 2. SSH into `shell.cec.wustl.edu` using your WUSTL Key credentials, then use `qlogin` to log into one of the Linux Lab machines and confirm that the version of `g++` there is correct, as you did in [Studio 0](https://github.com/cse4208-wustl/studio0).
 
-   Clone your `studio2` repo and work inside that cloned directory.
+   Clone your `studio2` repo with SSH URL and work inside that cloned directory.
 
    Create a header file (`weekday.h`) and a source file (`weekday.cpp`) in this repo, with the source file including the header file.
 
