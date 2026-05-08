@@ -40,7 +40,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the code you wrote for this exercise
+   - the code you wrote for the main function
    - the output your program produced
 
 3. Declare and define a **postfix** increment operator, `operator++`, for the `Weekday` enumerated type that uses a `switch` statement to change the variable's state to the next-higher value in the enumeration if there is one. If the variable already has the highest value, the operator should change it to the lowest value, looping around from highest to lowest.
