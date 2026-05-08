@@ -75,7 +75,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the new code you wrote for this exercise
+   - the code you added to the `main` function
    - the output your program produced
 
 6. Declare and define a **prefix** increment operator, `operator++`, for the `Pressure` enumerated type that uses a `switch` statement to change the variable's state to the next-higher value in the enumeration if there is one. If the variable already has the highest value possible, the operator should leave the value unchanged.
