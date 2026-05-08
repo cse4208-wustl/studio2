@@ -59,7 +59,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show:
 
-   - the new code you wrote for this exercise
+   - the code you added for the `main` function
    - the output your program produced
 
 5. Create a header file (`pressure.h`) and a source file (`pressure.cpp`) in your repo, with the source file including the header file. 
