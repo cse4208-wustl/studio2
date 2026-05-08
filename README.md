@@ -26,9 +26,9 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Clone your `studio2` repo and work inside that cloned directory.
 
-   Create a header file and a source file in this repo, with the source file including the header file.
+   Create a header file (`weekday.h`) and a source file (`weekday.cpp`) in this repo, with the source file including the header file.
 
-   In those files, declare an enumerated type, `enum class Weekday`, for the days-of-the-week example discussed in the lecture, and then declare and define a shift operator, `operator<<`, that:
+   In he header file, declare an enumerated type, `enum class Weekday`, for the days-of-the-week example discussed in the lecture. and then declare (in the header file) and define (in the source file) a shift operator, `operator<<`, that:
 
    - takes a reference to an `ostream`
    - takes a `const` reference to a variable of that enumerated type
@@ -61,8 +61,9 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
    - the new code you wrote for this exercise
    - the output your program produced
 
-5. Declare an enumerated type, `enum class Pressure`, for the pressure example discussed in the lecture, and then declare and define a shift operator, `operator<<`, that:
+5. Create a header file (`pressure.h`) and a source file (`pressure.cpp`) in your repo, with the source file including the header file. 
 
+   Declare an enumerated type, `enum class Pressure`, for the pressure example discussed in the lecture, and then declare and define a shift operator, `operator<<`, that:
    - takes a reference to an `ostream`
    - takes a `const` reference to a variable of that enumerated type
    - uses a `switch` statement to insert a string corresponding to the variable's value, such as `"Low"` for low pressure, into the `ostream`
@@ -78,13 +79,26 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
 6. Declare and define a **prefix** increment operator, `operator++`, for the `Pressure` enumerated type that uses a `switch` statement to change the variable's state to the next-higher value in the enumeration if there is one. If the variable already has the highest value possible, the operator should leave the value unchanged.
 
-   In `main`, use that operator within a `for` loop to cycle a variable through its low, medium, and then high pressure values, using the shift operator from the previous exercise to print a line to `cout` with the corresponding string for each of those values, but not the string for the pop state.
+   In `main`, use that operator within a `for` loop to cycle a variable through its low, medium, and then high pressure values, using the shift operator from the previous exercise to print a line to `cout` with the corresponding string for each of those values. Do not transition to the pop state.
 
    Compile and run your program. In your answers, show:
 
    - the new code you wrote for this exercise
    - the output your program produced
 
+7. Declare and define a **prefix** decrement operator, `operator--`, for the `Pressure` enumerated type that uses a `switch` statement to change the variable's state to the next-lower value in the enumeration if there is one. If the variable already has the lowest value possible, theoperator should leave the value unchanged. If the state transition is not allowed (if the pressure is pop), the operator should leave the value unchanged.
+
+   In `main`, add another `for` loop that cycles the previous pressure variable from high down to medium, low, and attempts to cyle down past low. Use the shift operator  to print a line to `cout` with the corresponding string for each of those values.
+
+   Compile and run your program. In your answers, show:
+
+   - the new code you wrote for this exercise
+   - the output your program produced
+
+8. Add code to main that tests your implementation of `operator--` when the variable is in the pop state. You your answers, show:
+   - the new code you wrote for this exercise
+   - the output your program produced
+     
 ## Deliverables
 
 Commit and push all modified and added files to the repo.
