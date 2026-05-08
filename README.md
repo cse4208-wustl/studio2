@@ -2,7 +2,7 @@
 
 ## State and Operations on It
 
-In this studio, you will explore how to represent program state using a simple `enum class` representation for two different kinds of state transition systems: days of the week and pressure. You will also implement operators over those enumerated types to print string representations to an output stream and to move from one state to another when allowed by the state transition system.
+In this studio, you will explore program state transition with a simple `enum class` representation for two different systems: days of the week and pressure. You will also implement operators over those enumerated types to print string representations to an output stream and to move from one state to another when allowed by the state transition system.
 
 Some of the ideas and possibly some of the code from this studio may help you get started on [Lab 0](https://github.com/cse4208-wustl/lab0).
 
