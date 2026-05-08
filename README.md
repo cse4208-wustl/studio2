@@ -32,7 +32,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    - takes a reference to an `ostream`
    - takes a `const` reference to a variable of that enumerated type
-   - uses a `switch` statement to insert a string corresponding to the variable's value, such as `"Sun"` for Sunday, into the `ostream`
+   - uses a `switch` statement to insert a string corresponding to the variable's value, such as `"Sunday"` for Sunday, into the `ostream`
    - inserts a blank space into the `ostream`
    - returns a reference to that same `ostream`
 
