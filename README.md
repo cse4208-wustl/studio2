@@ -85,6 +85,6 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
    - the new code you wrote for this exercise
    - the output your program produced
 
-## Notes
+## Deliverables
 
-- The original source included a posting note saying the exercise answers only need to show the new code written for each exercise rather than all code so far. That clarification has been folded directly into the instructions above.
+Commit and push all modified and added files to the repo.
