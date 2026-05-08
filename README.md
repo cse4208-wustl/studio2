@@ -28,7 +28,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Create a header file (`weekday.h`) and a source file (`weekday.cpp`) in this repo, with the source file including the header file.
 
-   In he header file, declare an enumerated type, `enum class Weekday`, for the days-of-the-week example discussed in the lecture. and then declare (in the header file) and define (in the source file) a shift operator, `operator<<`, that:
+   In he header file, declare an enumerated type, `enum class Weekday`, for the days-of-the-week example discussed in the lecture. Then declare (in the header file) and define (in the source file) a shift operator, `operator<<`, that:
 
    - takes a reference to an `ostream`
    - takes a `const` reference to a variable of that enumerated type
