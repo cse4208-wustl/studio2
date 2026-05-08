@@ -95,7 +95,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
    - the new code you wrote for this exercise
    - the output your program produced
 
-8. Add code to main that tests your implementation of `operator--` when the variable is in the pop state. You your answers, show:
+8. Add code to the `main` function that tests your implementation of `operator--` when the variable is in the pop state. You your answers, show:
    - the new code you wrote for this exercise
    - the output your program produced
      
